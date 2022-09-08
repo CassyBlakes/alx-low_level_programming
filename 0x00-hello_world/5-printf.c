@@ -3,7 +3,7 @@
 /**
  * main - to print string using the printf function
  *
- * Description: using the printf functiin to print "with proper grammar, but the outcome is a piece of art,"
+ * Description: using the printf functiin to print the string
  * Return: 0
 */
 
