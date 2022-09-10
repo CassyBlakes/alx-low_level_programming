@@ -12,21 +12,21 @@ int main(void)
 {
 	int i, j;
 
-	i = 48;
-	j = 48;
-
-	while (i < 58)
+	for (i = 48, i <= 56, i++)
 	{
-		j = i + 1;
-		while (j < 58)
+		for (j = 49, j <= 57, j++)
 		{
-			putchar(i);
-			putchar(j);
-
-			if (i < 56 || j < 57)
+			if (j > i)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(i);
+				putchar(j);
+
+				if (i != 56 || j != 57)
+				{
+
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
