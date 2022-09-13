@@ -3,8 +3,8 @@
 /**
  *jack_bauer - prints every minute of the day
  *n from 00:00 to 23:59
- * minutess loop convert minutes
- *hour loop converts hour and resets minutess
+ * mins loop convert mins
+ *hour loop converts hour and resets mins
  *Return: 0
  */
 
@@ -13,7 +13,7 @@ void jack_bauer(void)
 	int hours = 0;
 	int minutes = 0;
 	int hours_remainder;
-	int minutes_remainder;
+	int mins_remainder;
 
 	while (hours <= 23)
 	{
@@ -24,7 +24,7 @@ void jack_bauer(void)
 		_putchar(hours_remainder + '0');
 		_putchar(':');
 		_putchar(minutes / 10 + '0');
-		_putchar(minutes_remainder + '0');
+		_putchar(mins_remainder + '0');
 		minutes++;
 		_putchar('\n');
 	}
