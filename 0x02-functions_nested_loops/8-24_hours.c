@@ -2,8 +2,9 @@
 
 /**
  *jack_bauer - prints every minute of the day
- *n from 00:00 to 23:59, mins loop convert mins
- *hour loop converts hour and resets mins
+ *n from 00:00 to 23:59
+ * minutess loop convert minutes
+ *hour loop converts hour and resets minutess
  *Return: 0
  */
 
