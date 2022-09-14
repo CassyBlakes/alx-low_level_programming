@@ -14,9 +14,9 @@ void times_table(void)
 	{
 		for (y = 0; y <= 10; y++)
 		{
-			a = (x * y) / 10
+			a = (x * y) / 10;
 
-			b = (x * y) % 10
+			b = (x * y) % 10;
 
 			if ((x * y) > 9)
 
@@ -32,9 +32,9 @@ void times_table(void)
 				_putchar(' ');
 			}
 			/*Add an extra space if printing digit*/
-			if (y == 9 & x == 0)
+			if (y == 9 && x == 0)
 
-				break
+				break;
 			else if
 				(x * (y + 1) < 10)
 					_putchar(' ');
