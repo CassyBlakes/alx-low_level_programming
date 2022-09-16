@@ -9,19 +9,19 @@
 
 int main(void)
 {
-	int c = 0;
-	int sum = 0;
+	int x = 1024, y, sum = 0;
 
+	for (y = 0; y < x; y++)
 
-	while (c < 1024)
 	{
-		if (c % 3 == 0 || c % 5 == 0)
+		if ((y % 3 == 0) || (y % 5 == 0))
+
 		{
-			sum = c;
+			sum = sum + y;
 		}
-		c++
 	}
-	printf("%i\n", sum);
+	printf("%d\n", sum);
+
 	return (0);
 
 }
