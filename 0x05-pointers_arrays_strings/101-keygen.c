@@ -11,7 +11,7 @@ int main(void)
 {
 	int pass, sum;
 
-	srand(NULL);
+	srand(void(NULL));
 	sum = 0;
 	while (sum <= 2645)
 	{
